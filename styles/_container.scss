@@ -1,0 +1,20 @@
+@import "_header";
+
+.container {
+  max-width: var(--desktop-m);
+
+  display: flex;
+
+  place-content: center;
+  place-items: center;
+
+  width: 100%;
+  &__left {
+    width: 50%;
+    height: 100%;
+  }
+  &__rigth {
+    width: 50%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+header {
+  .logo {
+    width: 120px;
+    height: 80px;
+  }
+  ul.menu {
+    list-style-type: none;
+    display: flex;
+    li {
+      width: 33%;
+    }
+  }
+}
