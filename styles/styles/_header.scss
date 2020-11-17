@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  padding: 15px 0px;
+  margin-bottom: 60px;
+  .logo {
+    width: 120px;
+    height: 80px;
+  }
+  ul.menu {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    place-items: center;
+    place-content: center;
+    place-content: flex-end;
+    li {
+      width: 10%;
+      text-align: end;
+    }
+  }
+}
